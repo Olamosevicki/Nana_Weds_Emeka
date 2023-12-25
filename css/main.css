@@ -209,6 +209,10 @@
     position: absolute;
     height: auto;
     }
+    #venue iframe{
+        width:300;
+        height:auto;
+    }
 }
 
 @media screen and (min-width:700px ){
