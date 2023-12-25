@@ -121,13 +121,13 @@
        height:100%;
        background-size: cover;
        background-repeat: no-repeat;
-       background-image: url(_MG_0170.jpg);
+       background-image: url(maini.jpg);
        filter: grayscale(0) brightness(50%);
        animation-name: show;
        animation-duration: 10s;
        animation-timing-function: ease-in-out;
        animation-iteration-count: infinite;
-       z-index: -3;
+       z-index: -1;
      
     }
     header p{
@@ -256,7 +256,7 @@
        height:100%;
        background-size: cover;
        background-repeat: no-repeat;
-       background-image: url(_MG_0170.jpg);
+       background-image: url(maini.jpg);
        filter: grayscale(0) brightness(50%);
        animation-name: show;
        animation-duration: 10s;
