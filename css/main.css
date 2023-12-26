@@ -134,6 +134,26 @@
         padding: 3px;
         margin: 0px;
     }
+    @keyframes show {
+        25%{
+            
+            filter: grayscale(50%) brightness(50%);
+        }
+        50%{
+            filter: grayscale(100%) brightness(50%);
+        }
+        75%{filter: grayscale(10%) brightness(50%);}
+    }
+    @keyframes text-show {
+        25%{
+            
+             color: rgb(185, 109, 247);
+        }
+        50%{
+          color: rgb(172, 49, 243);
+        }
+        75%{ color: rgb(187, 171, 171);}
+    }
     section {
         background-color: rgba(161, 155, 155, 0.322);
        height: fit-content;
